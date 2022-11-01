@@ -5,10 +5,9 @@
 }
 
 .app{
-  width: 1400px;
+  width: 100vw;
   height: 100vh;
   margin: 0 auto;
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 7% 93%;
 }
