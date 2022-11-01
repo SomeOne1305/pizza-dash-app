@@ -7,8 +7,8 @@ export default function App() {
   return (
     <div className='app'>
       <Menu/>
-      <Cart/>
       <Main/>
+      {/* <Cart/> */}
     </div>
   )
 }

@@ -1,4 +1,27 @@
 .menu{
     height: 100vh;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
     border: 1px solid red;
+}
+
+.button{
+    width: 95%;
+    height: 50px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #929292;
+    border:1px solid red;
+}
+
+button i{
+    font-family: FontAwesome;
 }

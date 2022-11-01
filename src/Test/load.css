@@ -1,0 +1,11 @@
+.anim{
+    animation: loading 1s linear infinite;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+
+@keyframes loading {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
