@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
 .menu{
     height: 100vh;
     padding: 5px;
@@ -31,4 +32,22 @@
 .button:focus{
     background-color: rgba(233, 170, 52, 0.444);
     color: orange;
+}
+.selected{
+    color: orange;
+    background-color: rgba(255, 166, 0, 0.221);
+}
+.logo{
+    height: 90px;
+    position:relative;
+}
+.logo img{
+    width: 50%;
+    height: 50%;
+}
+#logo{
+    font-family: 'Dancing Script', cursive;
+    color:orange;
+    font-size:30px;
+    position:absolute;
 }

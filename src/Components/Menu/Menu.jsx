@@ -1,15 +1,16 @@
 import React from 'react'
 import './menu.css'
+import logo from "./images/logo.svg"
+
+
 export default function Menu() {
-  const [active, setActive] = React.useState()
-  const isTrue = React.useRef(0)
   const tabs = [
     {
       icon:"fa fa-home",
       name:"Home"
     },
     {
-      icon:"fa fa-book",
+      icon:"fa fa-grid-2",
       name:"table"
     },
     {
@@ -25,7 +26,7 @@ export default function Menu() {
       name:"history"
     },
     {
-      icon:"fa fa-chart",
+      icon:"fas fa-chart-pie-simple",
       name:"Report"
     },
     {
@@ -37,19 +38,18 @@ export default function Menu() {
       name:"Settings"
     }
   ]
-  function isActive() {
-    isTrue.setAttribute('is', true)
-  }
+  const [active, setActive] = React.useState(tabs[0].name)
     return (
     <div className='menu'>
       <div className="logo button">
-        <img src="" alt="" />
+        <img src={logo} />
+        <span id="logo">Foods</span>
       </div>
       {
         tabs.map((item, index)=>{
           return(
-            <div key={index + 4 * index} className="button" ref={isTrue}>
-              <i className={item.icon} style={{fontFamily:"FontAwesome"}}></i>
+            <div key={item.name} className={item.name === active ? "button selected": "button"} onClick={()=> setActive(item.name)}>
+              <i className={item.icon}></i>
               <span>{item.name}</span>
             </div>
           )
