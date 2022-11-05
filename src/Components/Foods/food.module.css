@@ -1,0 +1,76 @@
+
+.foods{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Roboto";
+}
+
+nav{
+    height: auto;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.topNav{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+}
+.topNav li{
+    list-style: none;
+    padding: 7px 17px;
+    border-radius: 25px;
+    background-color: rgba(231, 230, 230, 0.583);
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #929292;
+}
+.topNav li img{
+    width: 25px;
+    height: 25px;
+}
+.topNav li span{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 7px;
+    font-weight: 500;
+}
+
+.searchBlock{
+    width: 70%;
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid red;
+    margin:10px 0  20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 45%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.search input{
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    width: 90%;
+    font-size: 16px;
+}
+.search input::placeholder{
+    font-size: 15px;
+}
+.howManyItemSelected{
+    color: orange;
+    margin-left: 10%;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './menu.css'
+import menuStyle from'./menu.module.css'
 import logo from "./images/logo.svg"
 
 
@@ -40,15 +40,15 @@ export default function Menu() {
   ]
   const [active, setActive] = React.useState(tabs[0].name)
     return (
-    <div className='menu'>
-      <div className="logo button">
+    <div className={menuStyle.menu}>
+      <div className={menuStyle.logo}>
         <img src={logo} />
-        <span id="logo">Foods</span>
+        <span id={menuStyle.logo}>Foods</span>
       </div>
       {
         tabs.map((item, index)=>{
           return(
-            <div key={item.name} className={item.name === active ? "button selected": "button"} onClick={()=> setActive(item.name)}>
+            <div key={item.name} className={item.name === active ? `${menuStyle.button} ${menuStyle.selected}`: menuStyle.button} onClick={()=> setActive(item.name)}>
               <i className={item.icon}></i>
               <span>{item.name}</span>
             </div>
