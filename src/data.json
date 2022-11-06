@@ -2,198 +2,199 @@
     "pizza":[
         {
             "id":1,
-            "pizzaName":"Сырная",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/336673eb89994f878f6df5589f6cedf9_292x292.jpeg",
+            "Name":"Сырная",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/336673eb89994f878f6df5589f6cedf9_292x292.jpeg",
             "price":39000
         },
         {
             "id":2,
-            "pizzaName":"Маргарита",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/47dac5afdcc84aaaa5fe029f2f840c82_292x292.jpeg",
+            "Name":"Маргарита",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/47dac5afdcc84aaaa5fe029f2f840c82_292x292.jpeg",
             "price":39000
         },
         {
             "id":3,
-            "pizzaName":"Пепперони",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/c5c7d82b42584b0caaa2e6d32be39c92_292x292.jpeg"
+            "Name":"Пепперони",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/c5c7d82b42584b0caaa2e6d32be39c92_292x292.jpeg",
+            "price":65000
         },
         {
             "id":4,
-            "pizzaName":"",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/0abcc6d258c94b3bb1412b6cb644dec5_292x292.jpeg",
+            "Name":"",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/0abcc6d258c94b3bb1412b6cb644dec5_292x292.jpeg",
             "price":55000
         },
         {
             "id":5,
-            "pizzaName":"Пепперони фреш",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/0abcc6d258c94b3bb1412b6cb644dec5_292x292.jpeg",
+            "Name":"Пепперони фреш",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/0abcc6d258c94b3bb1412b6cb644dec5_292x292.jpeg",
             "price":55000
 
         },
         {
             "id":6,
-            "pizzaName":"Додо",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/de51de47773843fe95957caab3d7f974_292x292.png",
+            "Name":"Додо",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/de51de47773843fe95957caab3d7f974_292x292.png",
             "price":65000
         },
         {
             "id":7,
-            "pizzaName":"Сырный цыпленок",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/aa293f3b65874a8195bc1c36973ad465_292x292.jpeg",
+            "Name":"Сырный цыпленок",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/aa293f3b65874a8195bc1c36973ad465_292x292.jpeg",
             "price":45000
         },
         {
             "id":8,
-            "pizzaName":"Четыре сезона",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/9f8bf5fd916441ee812eab57885885d5_292x292.jpeg",
+            "Name":"Четыре сезона",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/9f8bf5fd916441ee812eab57885885d5_292x292.jpeg",
             "price":55000
         },
         {
             "id":9,
-            "pizzaName":"Двойная пепперони",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/af667534db434f16a3f0ec68aedc8451_292x292.jpeg",
+            "Name":"Двойная пепперони",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/af667534db434f16a3f0ec68aedc8451_292x292.jpeg",
             "price":70000
         },
         {
             "id":10,
-            "pizzaName":"Чизбургер-пицца",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/b6e0567c71ba4c0891b67310b0587179_292x292.jpeg",
+            "Name":"Чизбургер-пицца",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/b6e0567c71ba4c0891b67310b0587179_292x292.jpeg",
             "price":49000
         },
         {
             "id":11,
-            "pizzaName":"Индейка и грибы",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/59a490e30eb143a3b9619346914474f6_292x292.jpeg",
+            "Name":"Индейка и грибы",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/59a490e30eb143a3b9619346914474f6_292x292.jpeg",
             "price":49000
         },
         {
             "id":12,
-            "pizzaName":"Мясная",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/bf4c405c184c48108a666790acdbbb19_292x292.jpeg",
+            "Name":"Мясная",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/bf4c405c184c48108a666790acdbbb19_292x292.jpeg",
             "price":59000
         },
         {
             "id":13,
-            "pizzaName":"4 сыра",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/966d38e2a1dc4386afc53684fbdd3569_292x292.jpeg",
+            "Name":"4 сыра",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/966d38e2a1dc4386afc53684fbdd3569_292x292.jpeg",
             "price":65000
         },
         {
             "id":14,
-            "pizzaName":"Супермясная",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/a19e34d8246a4c179fc62479e1174669_292x292.jpeg",
+            "Name":"Супермясная",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/a19e34d8246a4c179fc62479e1174669_292x292.jpeg",
             "price":65000
         },
         {
             "id":15,
-            "pizzaName":"Мексиканская",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/2837c461187f46b08cfca8c6715fe9e9_292x292.jpeg",
+            "Name":"Мексиканская",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/2837c461187f46b08cfca8c6715fe9e9_292x292.jpeg",
             "price":55000
         },
         {
             "id":16,
-            "pizzaName":"Гавайская",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/55e123ffb87c4403828b86089b58fb70_292x292.jpeg",
+            "Name":"Гавайская",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/55e123ffb87c4403828b86089b58fb70_292x292.jpeg",
             "price":49000
         },
         {
             "id":17,
-            "pizzaName":"Чиззи чеддер",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/30f2957b88154e94a2c8182c1b7465c4_292x292.jpeg",
+            "Name":"Чиззи чеддер",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/30f2957b88154e94a2c8182c1b7465c4_292x292.jpeg",
             "price":55000
         },
         {
             "id":18,
-            "pizzaName":"Цыпленок Карри",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/6fda85cfd88041f98721680273071aa3_292x292.png",
+            "Name":"Цыпленок Карри",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/6fda85cfd88041f98721680273071aa3_292x292.png",
             "price":55000
         },
         {
             "id":19,
-            "pizzaName":"Цыпленок ранч",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/d3a63d0911cf45ca920a7c82c2e03757_292x292.jpeg",
+            "Name":"Цыпленок ранч",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/d3a63d0911cf45ca920a7c82c2e03757_292x292.jpeg",
             "price":59000
         },
         {
             "id":20,
-            "pizzaName":"Чикен Бомбони",
-            "pizzaImg":"https://cdn.dodostatic.net/static/Img/Products/5eca54ca8e3f4c4b986a26cdb7d7d09a_292x292.jpeg",
+            "Name":"Чикен Бомбони",
+            "Img":"https://cdn.dodostatic.net/static/Img/Products/5eca54ca8e3f4c4b986a26cdb7d7d09a_292x292.jpeg",
             "price":59000
         }
     ],
     "bar":[
         {
             "id":1,
-            "barName":"Эспрессо",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=fed97359-409b-11eb-a8ec-58a023a454fb",
+            "Name":"Эспрессо",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=fed97359-409b-11eb-a8ec-58a023a454fb",
             "price":14000
         },
         {
             "id":2,
-            "barName":"Американо",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=94e7ba37-250d-11eb-a8e5-58a023a454fb",
+            "Name":"Американо",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=94e7ba37-250d-11eb-a8e5-58a023a454fb",
             "price":14000
         },
         {
             "id":3,
-            "barName":"Капучино",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=e8283215-25be-11eb-a8e5-58a023a454fb",
+            "Name":"Капучино",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=e8283215-25be-11eb-a8e5-58a023a454fb",
             "price":18000
         },
         {
             "id":4,
-            "barName":"Латте",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=94e7ba38-250d-11eb-a8e5-58a023a454fb",
+            "Name":"Латте",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=94e7ba38-250d-11eb-a8e5-58a023a454fb",
             "price":18000
         },
         {
             "id":5,
-            "barName":"Холодный кофе",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=a07d8e4f-7752-11eb-a8fc-b42e993cf634",
+            "Name":"Холодный кофе",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=a07d8e4f-7752-11eb-a8fc-b42e993cf634",
             "price":22000
         },
         {
             "id":6,
-            "barName":"Лимонад манго маракуйя",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=ebdcb7c2-3a3d-11eb-a8e9-58a023a454fb",
+            "Name":"Лимонад манго маракуйя",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=ebdcb7c2-3a3d-11eb-a8e9-58a023a454fb",
             "price":25000
         },
         {
             "id":7,
-            "barName":"Лимонад спрайт огурец",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=6b4dfd93-2510-11eb-a8e5-58a023a454fb",
+            "Name":"Лимонад спрайт огурец",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=6b4dfd93-2510-11eb-a8e5-58a023a454fb",
             "price":15000
         },
         {
             "id":8,
-            "barName":"Мохито",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=a07d8e50-7752-11eb-a8fc-b42e993cf634",
+            "Name":"Мохито",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=a07d8e50-7752-11eb-a8fc-b42e993cf634",
             "price":15000
         },
         {
             "id":9,
-            "barName":"Айсти",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=ca537511-2585-11eb-a8e5-58a023a454fb",
+            "Name":"Айсти",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=ca537511-2585-11eb-a8e5-58a023a454fb",
             "price":15000
         },
         {
             "id":10,
-            "barName":"Милшейк шоколад",
-            "barImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=6e6c253c-3c69-11eb-a8e9-58a023a454fb",
+            "Name":"Милшейк шоколад",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=6e6c253c-3c69-11eb-a8e9-58a023a454fb",
             "price":22000
         }
     ],
     "Salads":[
         {
             "id":1,
-            "saladName":"Салат Греческий",
-            "saladImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=7ebe780e-6d55-11eb-a8fb-b42e993cf634",
+            "Name":"Салат Греческий",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=7ebe780e-6d55-11eb-a8fb-b42e993cf634",
             "price":25000
         },
         {
             "id":2,
-            "saladName":"Салат Цезарь",
-            "saladImg":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=38c86c88-75f3-11eb-a8fc-b42e993cf634",
+            "Name":"Салат Цезарь",
+            "Img":"https://tools.lavina.uz:8080/network/cors/def/https://apexpizza.uz/apex/hs//client/image?size=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%BE%D0%B5&uid=38c86c88-75f3-11eb-a8fc-b42e993cf634",
             "price":25000
         }
     ]

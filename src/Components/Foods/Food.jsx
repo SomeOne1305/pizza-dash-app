@@ -19,17 +19,18 @@ export default function Food() {
         }
     ]
     const [active, setActive] = React.useState(productNav[0].prodSectName)
-    const dataAddress = ["https://pizza-dash-app-default-rtdb.firebaseio.com/pizza", "", ""]
+    const dataAddress = ["http://localhost:3001/pizza", "http://localhost:3001/Salads", "http://localhost:3001/bar"]
     const [myData, setMyData] = React.useState([])
+    let ind = productNav.findIndex(object =>{
+        return object.prodSectName === active
+    })
     useEffect(()=>{
         async function getData(){
-            let data = await axios.get(dataAddress[0])
+            let data = await axios.get(dataAddress[ind])
             setMyData(data.data)
         }
         getData()
     })
-  
-    console.log(myData);
     return (
     <div className={foods.foods}>
         <nav>
@@ -42,7 +43,7 @@ export default function Food() {
             </div>
         <ul className={foods.topNav}>
             {
-                productNav.map(item=>{
+                productNav.map((item, index)=>{
                     return(
                       <li key={item.prodSectName} className={item.prodSectName === active ? menuStyle.selected : ""} onClick={()=>setActive(item.prodSectName)}>
                         <img src={item.prodIco}/>
@@ -53,9 +54,17 @@ export default function Food() {
             }
         </ul>
         </nav>
-        <div className="productBlock">
+        <div className={foods.productBlock}>
             {
-
+                myData.map((item)=>{
+                    return(
+                        <div key={item.Name} className={foods.productCard}>
+                            <img src={item.Img} alt="" />
+                            <span>{item.Name}</span>
+                            <h3>{item.price + "sum"}</h3>
+                        </div>
+                    )
+                })
             }
         </div>
     </div>
