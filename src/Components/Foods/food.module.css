@@ -1,9 +1,13 @@
-
+.Block{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 15px;
+}
 .foods{
     height: 100%;
     width: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
     font-family: "Roboto";
 }
 
@@ -12,7 +16,9 @@ nav{
     width: 100%;
     border: 1px solid red;
 }
-
+nav a{
+    text-decoration: none;
+}
 .topNav{
     width: 100%;
     padding: 10px 0;
@@ -75,12 +81,6 @@ nav{
     margin-left: 10%;
 }
 
-.productBlock{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-}
 
 .productCard{
     height: 400px;

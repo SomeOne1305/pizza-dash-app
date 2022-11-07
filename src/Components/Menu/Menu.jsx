@@ -42,7 +42,7 @@ export default function Menu() {
     return (
     <div className={menuStyle.menu}>
       <div className={menuStyle.logo}>
-        <img src={logo} />
+        <img src={logo} alt=""/>
         <span id={menuStyle.logo}>Foods</span>
       </div>
       {

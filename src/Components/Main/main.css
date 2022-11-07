@@ -1,4 +1,8 @@
 .Main{
     height: 100vh;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FAFAFA;
 }
